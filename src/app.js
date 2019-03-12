@@ -10,6 +10,7 @@ const viewsPath = path.join(__dirname, "../templates/views");
 const partialsPath = path.join(__dirname, "../templates/partials");
 console.log(partialsPath);
 const app = express();
+
 //Set express config
 app.set("view engine", "hbs");
 app.set("views", viewsPath);
